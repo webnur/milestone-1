@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex use</title>
+    <script src="https://kit.fontawesome.com/bc36a6870d.js" crossorigin="anonymous"></script>
+    
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input, button {
+            font-size: 1.5em;
+            margin-top: 15px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+        }
+        .login-form button {
+            background-color: orange;
+            color: whitesmoke;
+            font-weight: 700;
+            padding: 5px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+
+            <span>
+                <a href="">home</a>
+                <a href="">products</a>
+                <a href="">orders</a>
+                <a href="">about us</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-right-from-bracket"></i> profile </a>
+                <a href=""><i class="fa-solid fa-right-from-bracket"></i>log out</a>
+            </span>
+
+        </nav>
+    </header>
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h2>log in</h2>
+            <input type="email" placeholder="enter your email" name="" id="" required>
+            <input type="password" placeholder="password" name="" id="" required>
+            <button type="submit">log in</button>
+        </form>
+    </section>
+
+</body>
+</html>
