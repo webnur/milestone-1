@@ -86,6 +86,7 @@ ul li a img {
 .player {
   display: flex;
   align-items: center;
+  margin-left: 15px;
 }
 .player img {
   width: 56px;
